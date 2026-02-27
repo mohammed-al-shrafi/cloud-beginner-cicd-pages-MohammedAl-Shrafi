@@ -1,0 +1,33 @@
+# Cloud CI/CD Assignment — Mohammed Ahmed Al-Shrafi
+
+**Course:** Cloud Computing  
+**Instructor:** Dr. Faten F Abushmmala  
+
+## 🔗 Live Site
+[View on GitHub Pages](https://YOUR-USERNAME.github.io/cloud-beginner-cicd-pages-MohammedAlShrafi)
+
+> Replace `YOUR-USERNAME` with your actual GitHub username after deployment.
+
+## 📁 Project Files
+
+| File | Description |
+|------|-------------|
+| `index.html` | Main webpage |
+| `style.css` | Styling |
+| `script.js` | Interactive pipeline simulator |
+| `.github/workflows/deploy.yml` | CI/CD workflow |
+
+## 🚀 How to Open Locally
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/YOUR-USERNAME/cloud-beginner-cicd-pages-MohammedAlShrafi.git
+   ```
+2. Open `index.html` directly in your browser — no server needed.
+
+## ⚙️ CI/CD Pipeline
+
+Every push to `main` triggers the GitHub Actions workflow:
+1. Checks all required files exist
+2. Uploads site artifacts
+3. Deploys automatically to GitHub Pages

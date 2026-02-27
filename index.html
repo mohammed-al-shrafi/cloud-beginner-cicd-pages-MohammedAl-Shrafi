@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Cloud CI/CD | Mohammed Al-Shrafi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Mono:wght@400;700&family=Syne:wght@400;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="noise"></div>
+
+    <header>
+      <div class="badge">Cloud Computing Assignment</div>
+      <h1>CI/CD Pipeline</h1>
+      <div class="student-info">
+        <span><b>Name:</b> Mohammed Ahmed Al-Shrafi</span>
+        <span><b>Course:</b> Cloud Computing</span>
+      </div>
+    </header>
+
+    <main>
+      <section class="card" id="cicd-section">
+        <div class="card-label">01</div>
+        <h2>What is CI/CD?</h2>
+        <p>
+          CI/CD stands for <strong>Continuous Integration</strong> and
+          <strong>Continuous Deployment</strong>. It is a modern software
+          development practice that automates the process of testing and
+          delivering code. With CI, every time a developer pushes new code, it
+          is automatically verified to ensure nothing is broken. With CD, once
+          the code passes all checks, it is automatically deployed to a live
+          environment without any manual steps. This approach reduces human
+          error, speeds up delivery, and keeps the software always in a
+          deployable state. CI/CD is a core pillar of cloud-native development
+          and DevOps culture.
+        </p>
+      </section>
+
+      <section class="card" id="pipeline-section">
+        <div class="card-label">02</div>
+        <h2>My Pipeline</h2>
+        <p>
+          When I push code to the <strong>main</strong> branch on GitHub, the
+          Actions workflow triggers automatically. It checks that all required
+          files exist (index.html, style.css, script.js), then uploads and
+          deploys the site to GitHub Pages. Within seconds, the live website is
+          updated — no manual upload needed.
+        </p>
+        <div class="pipeline-flow">
+          <div class="step">Push Code</div>
+          <div class="arrow">→</div>
+          <div class="step">CI Checks</div>
+          <div class="arrow">→</div>
+          <div class="step">Build</div>
+          <div class="arrow">→</div>
+          <div class="step">Deploy ✅</div>
+        </div>
+      </section>
+
+      <section class="card" id="interactive-section">
+        <div class="card-label">03</div>
+        <h2>Pipeline Status</h2>
+        <p>Click the button to simulate a pipeline run:</p>
+        <button id="btn">▶ Run Pipeline</button>
+        <div id="status-box">
+          <p id="msg"></p>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <p>Deployed automatically via GitHub Actions + GitHub Pages</p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
