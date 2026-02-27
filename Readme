@@ -21,7 +21,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/YOUR-USERNAME/cloud-beginner-cicd-pages-MohammedAlShrafi.git
+   git clone https://github.com/mohammed-al-shrafi/cloud-beginner-cicd-pages-MohammedAlShrafi.git
    ```
 2. Open `index.html` directly in your browser — no server needed.
 
