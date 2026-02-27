@@ -43,3 +43,5 @@ btn.addEventListener('click', () => {
     }
   }, 900);
 });
+
+console.log('This is new to test the pipeline!');
