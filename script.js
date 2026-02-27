@@ -41,6 +41,7 @@ btn.addEventListener('click', () => {
       btn.textContent = '▶ Run Pipeline';
       running = false;
     }
+    console.log(`This is new`);
   }, 900);
 });
 
